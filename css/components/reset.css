@@ -22,6 +22,10 @@ body {
   line-height: 1.5;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Remove list styles on ul, ol elements */
 ul[role='list'],
 ol[role='list'] {
@@ -29,11 +33,10 @@ ol[role='list'] {
 }
 
 /* Reset default list styles (opcional mais agressivo) */
-ul,
-ol {
+ul,ol {
   list-style: none;
-  padding: 0;
 }
+
 
 /* Make images easier to work with */
 img,
