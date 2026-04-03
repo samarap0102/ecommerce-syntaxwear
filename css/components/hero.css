@@ -3,6 +3,7 @@
     no-repeat center;
     background-size: cover;
     height: 500px;
+    border-radius: 20px;
 }
 
 .overlay{

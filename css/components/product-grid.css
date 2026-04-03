@@ -1,0 +1,86 @@
+.card{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.highlight { 
+    grid-area: highlight; 
+    background-color: aqua;
+    background-image: url('../../images/products/highlight.jpg');
+    
+}
+
+.sneaker-purple { 
+    grid-area: sneaker-purple; 
+    background-color: purple;
+    background-image: url('../../images/products/sneaker-purple.jpg') ;
+}
+
+.model {
+     grid-area: model; 
+     background-color: #008000;
+     background-image: url('../../images/products/model.jpg');
+    }
+
+.sneaker-color { 
+    grid-area: sneaker-color; 
+    background-color: palevioletred;
+    background-image: url('../../images/products/sneaker-color.jpg');
+}
+
+.sneaker-white { 
+    grid-area: sneaker-white;
+    background-color: yellow;
+    background-image: url('../../images/products/sneaker-white.jpg');
+ }
+
+.sneaker-silver { 
+    grid-area: sneaker-silver;
+    background-color: teal;
+    background-image: url('../../images/products/sneaker-silver.jpg');
+ }
+
+.grid-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(3, 300px);
+    grid-template-areas:
+        "highlight highlight sneaker-purple sneaker-purple" 
+        "highlight highlight model sneaker-color" 
+        "sneaker-white sneaker-white model sneaker-silver"; 
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.top1-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+}
+
+.card-title{
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color:#EDEDED;
+}
+
+
+.card-subtitle{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color:#EDEDED;
+}
+
+.cta-group{
+    display: flex;  
+    gap: 10px; 
+}

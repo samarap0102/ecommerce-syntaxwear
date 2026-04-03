@@ -3,7 +3,13 @@
 body {
     font-family: var(--fonte-principal);
     color: #333333;
-    background-color: #000000;
+    background-color: #ffffff;
+}
+
+main{
+    padding: 2.5rem 2.5rem 0 2.5rem ;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .btn{
@@ -14,8 +20,6 @@ body {
     color: #ffffff;
     padding: 10px;
     transition: background-color 0.3s, border 0.3s;
-    
-
 }
 
 .btn-outline{
